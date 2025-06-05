@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 
 export default function Clouds({ cloudDefs }) {
   const refs = useRef([]);
+  const frameId = useRef(null);
 
   useEffect(() => {
     const animate = () => {
@@ -20,10 +21,16 @@ export default function Clouds({ cloudDefs }) {
         }
       });
 
-      requestAnimationFrame(animate);
+      frameId.current = requestAnimationFrame(animate);
     };
 
     animate();
+
+    return () => {
+      if (frameId.current) {
+        cancelAnimationFrame(frameId.current);
+      }
+    };
   }, [cloudDefs]);
 
   return (

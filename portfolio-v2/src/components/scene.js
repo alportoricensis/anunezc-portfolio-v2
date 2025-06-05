@@ -66,12 +66,12 @@ function generateBuildings() {
 export default function Scene() {
   const buildings = generateBuildings()
   const signs = [
-    { z: 3.5, x: -2.15, y: 17, height: 0.75, width: 1.25, label: "Resume", link: "/resume" },
-    { z: 3.5, x: 2.15, y: 17, height: 0.75, width: 1.25, label: "Projects", link: "/projects" },
-    { z: 2.85, x: 1.85, y: 16, height: 0.75, width: 1.25, label: "Academics", link: "/academics" },
-    { z: 2.85, x: -1.85, y: 16, height: 0.75, width: 1.25, label: "About Me", link: "/about_me" },
-    { z: 2, x: 1.55, y: 15, height: 0.75, width: 1.25,  label: "Skills", link: "/skills" },
-    { z: 2, x: -1.55, y: 15, height: 0.75, width: 1.25, label: "Contact", link: "/contact" },
+    { z: 3.5, x: -1.9, y: 17, height: 0.75, width: 1.5, label: "Resume", link: "/resume" },
+    { z: 3.5, x: 1.9, y: 17, height: 0.75, width: 1.5, label: "Projects", link: "/projects" },
+    { z: 2.85, x: 1.65, y: 16, height: 0.75, width: 1.5, label: "Education", link: "/education" },
+    { z: 2.85, x: -1.65, y: 16, height: 0.75, width: 1.5, label: "About", link: "/about" },
+    { z: 2, x: 1.35, y: 15, height: 0.75, width: 1.5,  label: "Skills", link: "/skills" },
+    { z: 2, x: -1.35, y: 15, height: 0.75, width: 1.5, label: "Contact", link: "/contact" },
   ];
 
   const cloudDefs = [
@@ -90,7 +90,7 @@ export default function Scene() {
       {fadeOut && (
         <div className="fixed top-0 left-0 w-full h-full bg-black z-50 animate-fadeout" />
       )}
-      <a-scene background="color: black">
+      <a-scene vr-mode-ui="enabled: false" background="color: black">
         <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable"></a-entity>
         <a-entity
           ref={cameraRef}
@@ -139,6 +139,7 @@ export default function Scene() {
             zpos={s.z}
             ypos={s.y}
             link={s.link}
+            label={s.label}
             height={s.height}
             width={s.width}
             cameraRef={cameraRef}

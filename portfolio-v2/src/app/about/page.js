@@ -3,7 +3,7 @@
 import dynamic from 'next/dynamic';
 
 
-const Plaza = dynamic(() => import('../../components/plaza'), {
+const About = dynamic(() => import('../../components/about'), {
   ssr: false
 });
 
@@ -11,7 +11,7 @@ const Plaza = dynamic(() => import('../../components/plaza'), {
 export default function Home() {
   return (
     <div className="bg-black h-full w-full">
-      <Plaza />
+      <About />
     </div>
   );
 }

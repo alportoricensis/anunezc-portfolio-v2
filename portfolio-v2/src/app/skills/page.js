@@ -3,15 +3,15 @@
 import dynamic from 'next/dynamic';
 
 
-const Plaza = dynamic(() => import('../../components/plaza'), {
+const Skills = dynamic(() => import("../../components/skills"), {
   ssr: false
 });
 
 
-export default function Home() {
+export default function SkillsPage() {
   return (
     <div className="bg-black h-full w-full">
-      <Plaza />
+      <Skills />
     </div>
   );
 }

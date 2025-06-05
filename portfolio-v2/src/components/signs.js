@@ -2,7 +2,18 @@
 
 import { useEffect, useRef } from 'react';
 
-export default function Sign({ xpos, zpos, ypos, height, width, link, cameraRef, triggerFade, rotation="0 0 0" }) {
+export default function Sign({
+  xpos,
+  zpos,
+  ypos,
+  height,
+  width,
+  link,
+  label = '',
+  rotation = '0 0 0',
+  cameraRef,
+  triggerFade,
+}) {
   const bgWidth = width ?? 1.5;
   const bgHeight = height ?? 2.5;
   const fgWidth = bgWidth - 0.1;
@@ -11,11 +22,24 @@ export default function Sign({ xpos, zpos, ypos, height, width, link, cameraRef,
   const frontRef = useRef();
   const textRef = useRef();
 
+  const [rx, ry, rz] = rotation.split(" ").map(Number);
+  const offset = 0.04;
+  let offsetX = 0, offsetY = 0, offsetZ = 0;
+
+  if (Math.abs(ry % 360) === 90) {
+    offsetX = -offset;
+  } else if (Math.abs(ry % 360) === 270) {
+    offsetX = offset;
+  } else if (Math.abs(ry % 360) === 0) {
+    offsetZ = -offset;
+  } else if (Math.abs(ry % 360) === 180) {
+    offsetZ = offset;
+  }
+
   useEffect(() => {
     const handleClick = () => {
       if (!cameraRef.current) return;
 
-      // Rotate and zoom camera toward this sign
       const cam = cameraRef.current;
       cam.removeAttribute("animation__move");
       cam.removeAttribute("animation__look");
@@ -34,10 +58,8 @@ export default function Sign({ xpos, zpos, ypos, height, width, link, cameraRef,
         easing: "easeInOutQuad",
       });
 
-      // Trigger fade after move
       triggerFade();
 
-      // Route change after delay
       setTimeout(() => {
         window.location.href = link;
       }, 1200);
@@ -65,7 +87,7 @@ export default function Sign({ xpos, zpos, ypos, height, width, link, cameraRef,
         color="black"
         position={`${xpos} ${zpos} ${ypos}`}
         rotation={rotation}
-        material="shader: flat;"
+        material="shader: standard;"
         class="clickable"
       />
 
@@ -74,7 +96,7 @@ export default function Sign({ xpos, zpos, ypos, height, width, link, cameraRef,
         width={bgWidth}
         height={bgHeight}
         color="white"
-        position={`${xpos} ${zpos} ${ypos - 0.04}`}
+        position={`${xpos + offsetX} ${zpos} ${ypos + offsetZ}`}
         rotation={rotation}
         material="shader: flat;"
       />
@@ -82,13 +104,12 @@ export default function Sign({ xpos, zpos, ypos, height, width, link, cameraRef,
       {/* Text */}
       <a-text
         ref={textRef}
-        value={link.replace("/", "").toUpperCase()}
+        value={`${label || link.replace("/", "").toUpperCase()} ->`}
         align="center"
-        position={`${xpos} ${zpos} ${ypos + 0.01}`}
+        position={`${xpos - offsetX} ${zpos} ${ypos - offsetZ}`}
         color="white"
+        font="sourcecodepro"
         rotation={rotation}
-        event-set__enter="color: #00ffff"
-        event-set__leave="color: white"
         class="clickable"
       />
     </a-entity>

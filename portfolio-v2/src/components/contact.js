@@ -19,9 +19,9 @@ export default function Contacts({}) {
     ];
 
     const signs = [
-        { z: 6, x: -5, y: 0, height: 1.5, width: 2.5, label: "E-Mail", link: "/resume", rotation: "0 90 0" },
-        { z: 5.5, x: -7, y: 3.75, height: 1.5, width: 2.5, label: "GitHub", link: "/projects", rotation: "0 90 0" },
-        { z: 5.5, x: -7, y: -3.75, height: 1.5, width: 2.5, label: "LinkedIn", link: "/projects", rotation: "0 90 0" },
+        { z: 6, x: -5, y: 0, height: 1.5, width: 2.5, link: "mailto:anunezc@umich.edu", label: "E-Mail me", rotation: "0 90 0"},
+        { z: 5.5, x: -7, y: 3.75, height: 1.5, width: 2.5, link: "https://github.com/alportoricensis", label: "GitHub", rotation: "0 90 0" },
+        { z: 5.5, x: -7, y: -3.75, height: 1.5, width: 2.5, link: "https://www.linkedin.com/in/anunezcarrasquillo/", label: "LinkedIn", rotation: "0 90 0" },
     ];
 
     const cloudDefs = [
@@ -42,9 +42,12 @@ export default function Contacts({}) {
 
     return (
         <div className="w-full h-full fixed top-0 left-0 z-0">
-            <a-scene background="color: black">
+            {fadeOut && (
+                <div className="fixed top-0 left-0 w-full h-full bg-black z-50 animate-fadeout" />
+            )}
+            <a-scene vr-mode-ui="enabled: false" background="color: black">
                 <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable"></a-entity>
-                <a-entity camera wasd-controls fov="80" position="1 5 0" rotation="0 90 0"></a-entity>
+                <a-entity camera fov="80" ref={cameraRef} position="-1 5 0" rotation="0 90 0"></a-entity>
                 <a-light type="ambient" color="#ffffff" intensity="1"/>
 
                 {/* Floor */}
@@ -70,35 +73,21 @@ export default function Contacts({}) {
 
                 {/* Signs */}
                 {signs.map((s, i) => (
-                    <a-entity key={i}>
-                        <a-plane
-                            position={`${s.x - 0.01} ${s.z} ${s.y}`}
-                            rotation={s.rotation}
-                            link={s.link}
-                            height={s.height}
-                            width={s.width}
-                            color="white"
-                        />
-                        <a-plane
-                            position={`${s.x} ${s.z} ${s.y}`}
-                            rotation={s.rotation}
-                            link={s.link}
-                            height={s.height - 0.1}
-                            width={s.width - 0.1}
-                            color="black"
-                        />
-                        <a-text
-                            value={s.label}
-                            height={s.height + 5}
-                            width={s.width + 5}
-                            align="center"
-                            baseline="bottom"
-                            position={`${s.x + 0.01} ${s.z} ${s.y}`}
-                            color="white"
-                            rotation={s.rotation}
-                        />
-                    </a-entity>
+                    <Sign
+                    key={i}
+                    xpos={s.x}
+                    zpos={s.z}
+                    ypos={s.y}
+                    rotation={s.rotation}
+                    link={s.link}
+                    label={s.label}
+                    height={s.height}
+                    width={s.width}
+                    cameraRef={cameraRef}
+                    triggerFade={() => setFadeOut(true)}
+                    />
                 ))}
+
 
                 {/* Clouds */}
                 <Clouds cloudDefs={cloudDefs}/>

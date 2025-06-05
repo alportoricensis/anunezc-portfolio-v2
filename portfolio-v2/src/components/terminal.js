@@ -83,7 +83,7 @@ export default function Terminal() {
 
     return (
         <div className="w-full h-full fixed top-0 left-0 z-0">
-            <a-scene background="color: black">
+            <a-scene vr-mode-ui="enabled: false" background="color: black">
                 <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable"></a-entity>
                 <a-entity camera fov="80" position="0 0 10" rotation="0 0 0"></a-entity>
                 <a-light type="ambient" color="#ffffff" intensity="1"/>
@@ -92,31 +92,31 @@ export default function Terminal() {
                 <a-plane
                     id="cv-screen"
                     class="clickable"
-                    position="12 0 -9.9"
-                    rotation="0 -45 0"
+                    position="14 0 -9.9"
+                    rotation="0 -20 0"
                     width="25"
                     height="14"
                     material="shader: flat; src: /CVTexture.png"
                 />
                 <a-plane
-                    position="12 0 -10"
-                    rotation="0 -45 0"
+                    position="14 0 -10"
+                    rotation="0 -20 0"
                     width="27"
                     height="15.5"
                     color="#FF073A"
                     material="shader: standard;"
                 />
                 <a-plane
-                    position="13 -8 -11"
-                    rotation="0 -45 0"
+                    position="15 -8 -11"
+                    rotation="0 -20 0"
                     width="10"
                     height="5"
                     color="#FF073A"
                     material="shader: standard;"
                 />
                 <a-plane
-                    position="13 -10 -11"
-                    rotation="-90 -45 0"
+                    position="15 -10 -11"
+                    rotation="-90 -20 0"
                     width="15"
                     height="4"
                     color="#FF073A"
@@ -125,8 +125,8 @@ export default function Terminal() {
 
                 {/* Left screen with clickable resume */}
                 <a-plane
-                    position="-12 0 -10"
-                    rotation="0 45 0"
+                    position="-14 0 -10"
+                    rotation="0 20 0"
                     width="27"
                     height="15.5"
                     color="#00FFFF"
@@ -135,23 +135,23 @@ export default function Terminal() {
                 <a-plane
                     id="resume-screen"
                     class="clickable"
-                    position="-12 0 -9.9"
-                    rotation="0 45 0"
+                    position="-14 0 -9.9"
+                    rotation="0 20 0"
                     width="25"
                     height="14"
                     material="shader: flat; src: /ResumeTexture.png"
                 />
                 <a-plane
-                    position="-13 -8 -11"
-                    rotation="0 45 0"
+                    position="-15 -8 -11"
+                    rotation="0 20 0"
                     width="10"
                     height="5"
                     color="#00ffff"
                     material="shader: flat;"
                 />
                 <a-plane
-                    position="-13 -10 -11"
-                    rotation="-90 45 0"
+                    position="-15 -10 -11"
+                    rotation="-90 20 0"
                     width="15"
                     height="4"
                     color="#00ffff"
@@ -187,7 +187,7 @@ export default function Terminal() {
 
                 {/* Cactus */}
                 <a-box
-                    position="-3 -9.5 -15"
+                    position="-3 -9.5 -10"
                     rotation="0 0 0"
                     width="3"
                     height="3"
@@ -196,7 +196,7 @@ export default function Terminal() {
                     material="shader: flat;"
                 />
                 <a-box
-                    position="-3 -9.5 -15"
+                    position="-3 -9.5 -10"
                     rotation="0 0 0"
                     width="2"
                     height="10"
@@ -210,9 +210,9 @@ export default function Terminal() {
                     position="0 11 -30"
                     rotation="0 0 0"
                     width="80"
-                    height="40"
+                    height="40.8"
                     color="white"
-                    material="shader: flat; opacity: 0.2"
+                    material="shader: standard; metalness: 0.6; roughness: 0.2; opacity: 0.8; transparent: true"
                 />
                 <a-circle
                     position="0 36 -60"
