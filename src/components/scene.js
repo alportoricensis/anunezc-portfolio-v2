@@ -90,12 +90,16 @@ export default function Scene() {
       {fadeOut && (
         <div className="fixed top-0 left-0 w-full h-full bg-black z-50 animate-fadeout" />
       )}
-      <a-scene vr-mode-ui="enabled: false" background="color: black">
+      <a-scene 
+          device-orientation-permission-ui="enabled: false"
+          vr-mode-ui="enabled: false"
+          background="color: black"
+      >
         <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable"></a-entity>
         <a-entity
           ref={cameraRef}
           camera
-          wasd-controls
+          wasd-controls-enabled="false" look-controls-enabled="false"
           fov="90"
           position="0 2 21"
           rotation="0 0 0"

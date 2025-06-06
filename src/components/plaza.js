@@ -19,11 +19,14 @@ export default function Plaza() {
 
     return (
         <div className="w-full h-full fixed top-0 left-0 z-0">
-            <a-scene vr-mode-ui="enabled: false" background="color: black">
+            <a-scene 
+                device-orientation-permission-ui="enabled: false"
+                vr-mode-ui="enabled: false"
+                background="color: black"
+            >
                 <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable"></a-entity>
-                <a-entity wasd-controls camera fov="80" position="0 -2 0" rotation="10 0 0"></a-entity>
+                <a-entity wasd-controls-enabled="false" look-controls-enabled="false" camera fov="80" position="0 -2 0" rotation="10 0 0"></a-entity>
                 <a-light type="ambient" color="#ffffff" intensity="0.7"/>
-                
 
                 {/* Floor */}
                 <a-plane

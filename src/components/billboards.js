@@ -50,12 +50,16 @@ export default function Billboards({ camRef }) {
     ];
 
     return (
-        <a-scene vr-mode-ui="enabled: false" background="color: black">
+        <a-scene 
+            device-orientation-permission-ui="enabled: false"
+            vr-mode-ui="enabled: false"
+            background="color: black"
+        >
             <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable"></a-entity>
             <a-entity
                 ref={camRef}
                 camera
-                wasd-controls
+                wasd-controls-enabled="false" look-controls-enabled="false"
                 fov="90"
                 position="-7 1.6 0"
                 rotation="5 -90 0"
