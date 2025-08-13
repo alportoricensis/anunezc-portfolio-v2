@@ -43,18 +43,81 @@
       "ContentPath": ""
     },
     {
-      "Id": "InterestPoint#999",
+      "Id": "InterestPoint#7",
       "Title": "Laser Control Panel",
       "ContentType": "Image",
       "Content": "",
-      "ContentPath": "Assets/StreamingAssets/GUI_Img.png"
+      "ContentPath": "Images/InterestPointImages/ZEUS_Control_Panel.png"
     },
     {
-      "Id": "InterestPoint#1000",
+      "Id": "InterestPoint#8",
       "Title": "Laser Flythrough",
       "ContentType": "Video",
       "Content": "",
       "ContentPath": "Videos/ZEUS_Flythrough.mp4"
+    },
+    {
+      "Id": "InterestPoint#9",
+      "Title": "Target Samples",
+      "ContentType": "Image",
+      "Content": "",
+      "ContentPath": "Images/InterestPointImages/TargetFabTargets.png"
+    },
+    {
+      "Id": "InterestPoint#10",
+      "Title": "Target Archive",
+      "ContentType": "Text",
+      "Content": "We store unused targets safely in a cabinet, organized by experiment, and ready to go if they are needed in the future. The archive of targets in the cabinet goes back to 2009.",
+      "ContentPath": ""
+    },
+    {
+      "Id": "InterestPoint#11",
+      "Title": "Target Assembly",
+      "ContentType": "Text",
+      "Content": "Our approach to assembling targets is precise and repeatable. We use machinist’s tools such as angle blocks and precision-machined jigs and fixtures to aid in our setups. Our setups are completely modular and are built up for each procedure. Each setup is unique to a certain step of a target assembly. We hold materials in place with vacuum, move pieces together with optics stages, and glue components together by hand.",
+      "ContentPath": ""
+    },
+    {
+      "Id": "InterestPoint#12",
+      "Title": "Target Machining",
+      "ContentType": "Text",
+      "Content": "Undergraduate students operate our laser cutter and innovate solutions to cut new geometries and materials. We can cut foils and films ranging from 2 microns to 500 microns thick. We can also cut plastic tubes and metal wires. These components are used in targets for various facilities, namely OMEGA at LLE, Jupiter Laser Facility, and ZEUS. Some of the most typical materials we cut are aluminum, gold, copper, tantalum, tungsten, polyimide, and polyether ether ketone (PEEK) plastic.",
+      "ContentPath": ""
+    },
+    {
+      "Id": "InterestPoint#13",
+      "Title": "Target Machining",
+      "ContentType": "Video",
+      "Content": "",
+      "ContentPath": "Videos/TargetFabMachining.mp4"
+    },
+    {
+      "Id": "InterestPoint#14",
+      "Title": "Sallee Klein",
+      "ContentType": "Text",
+      "Content": "Senior Engineer in Research Sallee Klein designs targets for experiments at various laser facilities. She uses Autodesk Inventor to create models of targets based on a scientist’s ideas and goals for their experiments. Scientists can plan their experiments in a software called VisRad, and Sallee will interpret the information provided by the scientists to ensure each target is built with precise angles in order to align it in the target chamber.",
+      "ContentPath": ""
+    },
+    {
+      "Id": "InterestPoint#15",
+      "Title": "Target CAD",
+      "ContentType": "Image",
+      "Content": "",
+      "ContentPath": "Images/InterestPointImages/TargetFabSalleeScreen.png"
+    },
+    {
+      "Id": "InterestPoint#16",
+      "Title": "Jill Doing Metrology",
+      "ContentType": "Text",
+      "Content": "Engineer in Research Jill Schell uses a Keyence digital microscope to perform metrology on a target for OMEGA-EP experiments. Metrology is the process of measuring and documenting features on the target, such as material thicknesses and the angles between two components. We provide these images and measurements to the scientists so that they know more about the targets they are going to shoot.",
+      "ContentPath": ""
+    },
+    {
+      "Id": "InterestPoint#17",
+      "Title": "ZEUS Map",
+      "ContentType": "Image",
+      "Content": "",
+      "ContentPath": "Images/InterestPointImages/ZEUS_Topdown.png"
     }
   ]
 }
