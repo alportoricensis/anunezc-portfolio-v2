@@ -1,0 +1,5678 @@
+{
+    "Photospheres": [
+        {
+            "Id": "Laser Control Room #1",
+            "FilePath": "Images/LCR/LaserControlRoom_1.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #26",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Laser Control Room #2",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Laser Control Room #2",
+            "FilePath": "Images/LCR/LaserControlRoom_2.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Laser Control Room #3",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Laser Control Room #1",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Laser Control Room #3",
+            "FilePath": "Images/LCR/LaserControlRoom_3.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Laser Control Room #2",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Fabrication Metrology #1",
+            "FilePath": "Images/Target Fab/TargetFab_Metrology_1.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#10",
+                    "Location": [
+                        -47.5,
+                        -48.29999923706055,
+                        29.600000381469728
+                    ]
+                },
+                {
+                    "InterestPointId": "InterestPoint#9",
+                    "Location": [
+                        -12.199999809265137,
+                        -43.900001525878909,
+                        53.900001525878909
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #6",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Fabrication Metrology #2",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Fabrication Metrology #2",
+            "FilePath": "Images/Target Fab/TargetFab_Metrology_2.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#11",
+                    "Location": [
+                        47.0,
+                        -43.400001525878909,
+                        -16.299999237060548
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Fabrication Metrology #1",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Fabrication Laboratory #1",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Fabrication Laboratory #1",
+            "FilePath": "Images/Target Fab/TargetFab_Lab_1.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#13",
+                    "Location": [
+                        2.299999952316284,
+                        -44.5,
+                        62.70000076293945
+                    ]
+                },
+                {
+                    "InterestPointId": "InterestPoint#12",
+                    "Location": [
+                        -35.0,
+                        -37.599998474121097,
+                        46.20000076293945
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Fabrication Metrology #2",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Fabrication Laboratory #2",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Fabrication Laboratory #2",
+            "FilePath": "Images/Target Fab/TargetFab_Lab_2.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Fabrication Laboratory #1",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Fabrication Office #1",
+            "FilePath": "Images/Target Fab/TargetFab_Office_1.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#15",
+                    "Location": [
+                        68.69999694824219,
+                        -32.5,
+                        27.899999618530275
+                    ]
+                },
+                {
+                    "InterestPointId": "InterestPoint#14",
+                    "Location": [
+                        59.099998474121097,
+                        -36.20000076293945,
+                        -45.599998474121097
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #7",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Fabrication Office #2",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Fabrication Office #2",
+            "FilePath": "Images/Target Fab/TargetFab_Office_2.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#16",
+                    "Location": [
+                        -45.099998474121097,
+                        -22.700000762939454,
+                        -15.300000190734864
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #7",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Fabrication Office #1",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Building #1",
+            "FilePath": "Images/Outdoors/Outside_1.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #1",
+                    "Position": [
+                        -86.80000305175781,
+                        -6.900000095367432,
+                        20.299999237060548
+                    ],
+                    "Angle": [
+                        0.0,
+                        103.78642272949219,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Building #3",
+                    "Position": [
+                        -39.52000045776367,
+                        -6.21999979019165,
+                        9.109999656677246
+                    ],
+                    "Angle": [
+                        0.0,
+                        103.78642272949219,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Building #2",
+                    "Position": [
+                        -13.40999984741211,
+                        -4.070000171661377,
+                        2.940000057220459
+                    ],
+                    "Angle": [
+                        0.0,
+                        103.78642272949219,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Building #2",
+            "FilePath": "Images/Outdoors/Outside_2.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #1",
+                    "Position": [
+                        -48.20000076293945,
+                        -4.739999771118164,
+                        6.800000190734863
+                    ],
+                    "Angle": [
+                        0.0,
+                        96.74554443359375,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Building #1",
+                    "Position": [
+                        16.780000686645509,
+                        -7.159999847412109,
+                        -2.4600000381469728
+                    ],
+                    "Angle": [
+                        0.0,
+                        275.7490234375,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Building #3",
+                    "Position": [
+                        -20.030000686645509,
+                        -4.739999771118164,
+                        2.680000066757202
+                    ],
+                    "Angle": [
+                        0.0,
+                        96.74554443359375,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Building #3",
+            "FilePath": "Images/Outdoors/Outside_3.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Building #2",
+                    "Position": [
+                        18.979999542236329,
+                        -7.139999866485596,
+                        -6.110000133514404
+                    ],
+                    "Angle": [
+                        0.0,
+                        286.1552734375,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #1",
+                    "Position": [
+                        -27.299999237060548,
+                        -5.0,
+                        8.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        106.49947357177735,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Building #1",
+                    "Position": [
+                        44.900001525878909,
+                        -7.139999866485596,
+                        -14.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        286.1552734375,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #1",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_1.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#1",
+                    "Location": [
+                        -95.30000305175781,
+                        -54.79999923706055,
+                        9.800000190734864
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Building #3",
+                    "Position": [
+                        16.200000762939454,
+                        -8.100000381469727,
+                        -5.300000190734863
+                    ],
+                    "Angle": [
+                        0.0,
+                        290.20416259765627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #2",
+                    "Position": [
+                        -6.0,
+                        -8.5,
+                        -19.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        17.25934410095215,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #16",
+                    "Position": [
+                        22.700000762939454,
+                        -10.899999618530274,
+                        15.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        229.04449462890626,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #3",
+                    "Position": [
+                        -14.100000381469727,
+                        -8.5,
+                        -43.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        17.25934410095215,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #2",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_2.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#2",
+                    "Location": [
+                        31.100000381469728,
+                        -57.599998474121097,
+                        -79.69999694824219
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Building #3",
+                    "Position": [
+                        19.899999618530275,
+                        -8.800000190734864,
+                        7.699999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        287.46356201171877,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #16",
+                    "Position": [
+                        26.5,
+                        -8.800000190734864,
+                        24.100000381469728
+                    ],
+                    "Angle": [
+                        0.0,
+                        229.35997009277345,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #1",
+                    "Position": [
+                        8.899999618530274,
+                        -8.800000190734864,
+                        15.199999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        204.1255340576172,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #3",
+                    "Position": [
+                        -11.399999618530274,
+                        -8.600000381469727,
+                        -30.200000762939454
+                    ],
+                    "Angle": [
+                        0.0,
+                        23.805212020874025,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #3",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_3.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#3",
+                    "Location": [
+                        -16.399999618530275,
+                        -51.0,
+                        -63.20000076293945
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #1",
+                    "Position": [
+                        11.0,
+                        -9.600000381469727,
+                        47.400001525878909
+                    ],
+                    "Angle": [
+                        0.0,
+                        191.4979248046875,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #1",
+                    "Position": [
+                        -76.69999694824219,
+                        -9.800000190734864,
+                        12.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        100.65252685546875,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #6",
+                    "Position": [
+                        -44.79999923706055,
+                        -9.800000190734864,
+                        7.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        100.65252685546875,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #2",
+                    "Position": [
+                        6.03000020980835,
+                        -10.920000076293946,
+                        25.850000381469728
+                    ],
+                    "Angle": [
+                        0.0,
+                        191.4979248046875,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #5",
+                    "Position": [
+                        -23.200000762939454,
+                        -9.800000190734864,
+                        4.199999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        100.65252685546875,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #5",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_5.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#4",
+                    "Location": [
+                        -7.800000190734863,
+                        -42.5,
+                        -32.400001525878909
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #2",
+                    "Position": [
+                        -65.9000015258789,
+                        -10.5600004196167,
+                        12.300000190734864
+                    ],
+                    "Angle": [
+                        0.0,
+                        99.53288269042969,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #1",
+                    "Position": [
+                        -46.79999923706055,
+                        -9.8100004196167,
+                        8.100000381469727
+                    ],
+                    "Angle": [
+                        0.0,
+                        99.53288269042969,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #3",
+                    "Position": [
+                        36.91999816894531,
+                        -12.739999771118164,
+                        -9.649999618530274
+                    ],
+                    "Angle": [
+                        0.0,
+                        285.81976318359377,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #6",
+                    "Position": [
+                        -21.510000228881837,
+                        -9.8100004196167,
+                        3.2100000381469728
+                    ],
+                    "Angle": [
+                        0.0,
+                        99.53288269042969,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #3",
+                    "Position": [
+                        -78.9000015258789,
+                        -10.199999809265137,
+                        14.399999618530274
+                    ],
+                    "Angle": [
+                        0.0,
+                        99.53288269042969,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #6",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_6.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#5",
+                    "Location": [
+                        -0.5,
+                        -42.5,
+                        -41.400001525878909
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #2",
+                    "Position": [
+                        -38.540000915527347,
+                        -10.270000457763672,
+                        7.619999885559082
+                    ],
+                    "Angle": [
+                        0.0,
+                        100.5928955078125,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #3",
+                    "Position": [
+                        -80.5999984741211,
+                        -16.100000381469728,
+                        12.699999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        99.53288269042969,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #1",
+                    "Position": [
+                        -24.030000686645509,
+                        -10.270000457763672,
+                        3.9800000190734865
+                    ],
+                    "Angle": [
+                        0.0,
+                        100.5928955078125,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #5",
+                    "Position": [
+                        25.709999084472658,
+                        -10.920000076293946,
+                        -4.840000152587891
+                    ],
+                    "Angle": [
+                        0.0,
+                        281.9189453125,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #3",
+                    "Position": [
+                        46.599998474121097,
+                        -10.899999618530274,
+                        -9.899999618530274
+                    ],
+                    "Angle": [
+                        0.0,
+                        281.9189453125,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #7",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_7.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #8",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #22",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #8",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_8.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #9",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #7",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #9",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_9.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #10",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #8",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #10",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_10.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #11",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #9",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #11",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_11.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #12",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #10",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #12",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_12.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #13",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #11",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #13",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_13.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #14",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #12",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #14",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_14.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #15",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #13",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #15",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_15.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #16",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #14",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Gerstacker Lobby #16",
+            "FilePath": "Images/Lobby/Lobby_Gerstacker_16.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Gerstacker Lobby #1",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #15",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Main #1",
+            "FilePath": "Images/Lobby/Lobby_Main_1.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #6",
+                    "Position": [
+                        -108.0,
+                        -14.039999961853028,
+                        -71.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        47.082977294921878,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #5",
+                    "Position": [
+                        -84.4000015258789,
+                        -14.039999961853028,
+                        -53.20000076293945
+                    ],
+                    "Angle": [
+                        0.0,
+                        47.082977294921878,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #3",
+                    "Position": [
+                        -49.79999923706055,
+                        -14.039999961853028,
+                        4.400000095367432
+                    ],
+                    "Angle": [
+                        0.0,
+                        95.83702087402344,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #5",
+                    "Position": [
+                        35.65999984741211,
+                        -11.649999618530274,
+                        -8.34000015258789
+                    ],
+                    "Angle": [
+                        0.0,
+                        281.94720458984377,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #2",
+                    "Position": [
+                        -27.399999618530275,
+                        -14.039999961853028,
+                        2.5299999713897707
+                    ],
+                    "Angle": [
+                        0.0,
+                        95.83702087402344,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #3",
+                    "Position": [
+                        58.400001525878909,
+                        -9.0,
+                        -13.800000190734864
+                    ],
+                    "Angle": [
+                        0.0,
+                        281.94720458984377,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #6",
+                    "Position": [
+                        10.279999732971192,
+                        -11.649999618530274,
+                        -2.0199999809265138
+                    ],
+                    "Angle": [
+                        0.0,
+                        281.94720458984377,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #4",
+                    "Position": [
+                        -60.79999923706055,
+                        -14.039999961853028,
+                        -28.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        47.082977294921878,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Main #2",
+            "FilePath": "Images/Lobby/Lobby_Main_2.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #9",
+                    "Position": [
+                        -33.18000030517578,
+                        -14.039999961853028,
+                        32.369998931884769
+                    ],
+                    "Angle": [
+                        0.0,
+                        131.8310089111328,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #3",
+                    "Position": [
+                        -25.700000762939454,
+                        -14.039999961853028,
+                        0.5099999904632568
+                    ],
+                    "Angle": [
+                        0.0,
+                        95.83702087402344,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #1",
+                    "Position": [
+                        22.200000762939454,
+                        -11.119999885559082,
+                        -6.699999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        285.90557861328127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #4",
+                    "Position": [
+                        -47.70000076293945,
+                        -19.450000762939454,
+                        -33.099998474121097
+                    ],
+                    "Angle": [
+                        0.0,
+                        47.873741149902347,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #5",
+                    "Position": [
+                        61.70000076293945,
+                        -13.5,
+                        -18.600000381469728
+                    ],
+                    "Angle": [
+                        0.0,
+                        285.90557861328127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #3",
+                    "Position": [
+                        69.19999694824219,
+                        -9.300000190734864,
+                        -20.700000762939454
+                    ],
+                    "Angle": [
+                        0.0,
+                        285.90557861328127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #6",
+                    "Position": [
+                        52.5,
+                        -17.700000762939454,
+                        -15.399999618530274
+                    ],
+                    "Angle": [
+                        0.0,
+                        285.90557861328127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #5",
+                    "Position": [
+                        -63.0,
+                        -19.450000762939454,
+                        -58.400001525878909
+                    ],
+                    "Angle": [
+                        0.0,
+                        55.6827507019043,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #10",
+                    "Position": [
+                        -35.369998931884769,
+                        -14.039999961853028,
+                        22.6299991607666
+                    ],
+                    "Angle": [
+                        0.0,
+                        131.8310089111328,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Main #3",
+            "FilePath": "Images/Lobby/Lobby_Main_3.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #10",
+                    "Position": [
+                        -5.699999809265137,
+                        -10.100000381469727,
+                        21.700000762939454
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #2",
+                    "Position": [
+                        22.530000686645509,
+                        -13.010000228881836,
+                        -3.6500000953674318
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #5",
+                    "Position": [
+                        -16.700000762939454,
+                        -9.300000190734864,
+                        -24.600000381469728
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #1",
+                    "Position": [
+                        31.68000030517578,
+                        -10.380000114440918,
+                        -8.819999694824219
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #6",
+                    "Position": [
+                        50.70000076293945,
+                        -11.220000267028809,
+                        -17.700000762939454
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #5",
+                    "Position": [
+                        107.69999694824219,
+                        -16.100000381469728,
+                        -44.29999923706055
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #3",
+                    "Position": [
+                        154.8000030517578,
+                        -16.100000381469728,
+                        -69.0999984741211
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #9",
+                    "Position": [
+                        -1.4299999475479127,
+                        -9.34000015258789,
+                        28.110000610351564
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #6",
+                    "Position": [
+                        -36.79999923706055,
+                        -11.800000190734864,
+                        -39.70000076293945
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #4",
+                    "Position": [
+                        -10.199999809265137,
+                        -9.300000190734864,
+                        -10.600000381469727
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Main #4",
+            "FilePath": "Images/Lobby/Lobby_Main_4.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #1",
+                    "Position": [
+                        58.470001220703128,
+                        -14.859999656677246,
+                        11.100000381469727
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #2",
+                    "Position": [
+                        35.29999923706055,
+                        -14.859999656677246,
+                        24.110000610351564
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #9",
+                    "Position": [
+                        16.600000381469728,
+                        -14.859999656677246,
+                        63.31999969482422
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #7",
+                    "Position": [
+                        -57.5,
+                        -9.0,
+                        -35.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #6",
+                    "Position": [
+                        -34.599998474121097,
+                        -9.0,
+                        -23.799999237060548
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #5",
+                    "Position": [
+                        -16.299999237060548,
+                        -9.0,
+                        -14.800000190734864
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #3",
+                    "Position": [
+                        13.430000305175782,
+                        -14.859999656677246,
+                        32.779998779296878
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Main #5",
+            "FilePath": "Images/Lobby/Lobby_Main_5.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #1",
+                    "Position": [
+                        52.40999984741211,
+                        -13.5,
+                        42.099998474121097
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #9",
+                    "Position": [
+                        13.800000190734864,
+                        -12.579999923706055,
+                        72.19999694824219
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #3",
+                    "Position": [
+                        9.890000343322754,
+                        -9.739999771118164,
+                        36.54999923706055
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #8",
+                    "Position": [
+                        -42.400001525878909,
+                        -7.0,
+                        -29.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #7",
+                    "Position": [
+                        -25.469999313354493,
+                        -6.380000114440918,
+                        -19.690000534057618
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #6",
+                    "Position": [
+                        -14.90999984741211,
+                        -6.840000152587891,
+                        -10.890000343322754
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #4",
+                    "Position": [
+                        4.840000152587891,
+                        -8.890000343322754,
+                        18.969999313354493
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Main #6",
+            "FilePath": "Images/Lobby/Lobby_Main_6.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Conference #1",
+                    "Position": [
+                        4.75,
+                        -11.680000305175782,
+                        -16.65999984741211
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #4",
+                    "Position": [
+                        35.400001525878909,
+                        -13.5,
+                        16.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #8",
+                    "Position": [
+                        -42.400001525878909,
+                        -12.960000038146973,
+                        -30.1299991607666
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #7",
+                    "Position": [
+                        -15.65999984741211,
+                        -11.680000305175782,
+                        -16.65999984741211
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Conference #1",
+            "FilePath": "Images/Lobby/Lobby_Conference_1.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Conference #2",
+                    "Position": [
+                        -36.79999923706055,
+                        -5.420000076293945,
+                        -1.4500000476837159
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #7",
+                    "Position": [
+                        19.549999237060548,
+                        -13.039999961853028,
+                        1.8200000524520875
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #6",
+                    "Position": [
+                        4.75,
+                        -11.680000305175782,
+                        -16.65999984741211
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #8",
+                    "Position": [
+                        56.400001525878909,
+                        -13.5,
+                        9.899999618530274
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Conference #2",
+            "FilePath": "Images/Lobby/Lobby_Conference_2.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #8",
+                    "Position": [
+                        -93.5999984741211,
+                        -15.399999618530274,
+                        -20.100000381469728
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #7",
+                    "Position": [
+                        -49.20000076293945,
+                        -10.699999809265137,
+                        -7.099999904632568
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Conference #1",
+                    "Position": [
+                        -28.90999984741211,
+                        -10.699999809265137,
+                        -4.489999771118164
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Main #7",
+            "FilePath": "Images/Lobby/Lobby_Main_7.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #8",
+                    "Position": [
+                        -27.700000762939454,
+                        -11.300000190734864,
+                        -7.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #5",
+                    "Position": [
+                        41.900001525878909,
+                        -9.399999618530274,
+                        27.200000762939454
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Conference #1",
+                    "Position": [
+                        23.100000381469728,
+                        -11.300000190734864,
+                        0.4000000059604645
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #6",
+                    "Position": [
+                        16.399999618530275,
+                        -9.399999618530274,
+                        15.300000190734864
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Main #8",
+            "FilePath": "Images/Lobby/Lobby_Main_8.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #7",
+                    "Position": [
+                        -66.80000305175781,
+                        -7.099999904632568,
+                        22.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #5",
+                    "Position": [
+                        -44.900001525878909,
+                        -7.099999904632568,
+                        15.199999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #4",
+                    "Position": [
+                        -29.0,
+                        -7.099999904632568,
+                        9.699999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #2",
+                    "Position": [
+                        -18.399999618530275,
+                        -7.099999904632568,
+                        5.900000095367432
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #1",
+                    "Position": [
+                        -8.899999618530274,
+                        -7.099999904632568,
+                        2.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #5",
+                    "Position": [
+                        47.900001525878909,
+                        -7.099999904632568,
+                        30.299999237060548
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #6",
+                    "Position": [
+                        30.100000381469728,
+                        -7.099999904632568,
+                        20.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Conference #1",
+                    "Position": [
+                        30.100000381469728,
+                        -7.099999904632568,
+                        9.100000381469727
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #7",
+                    "Position": [
+                        18.0,
+                        -7.5,
+                        6.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Main #9",
+            "FilePath": "Images/Lobby/Lobby_Main_9.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #10",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #23",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Lobby Main #10",
+            "FilePath": "Images/Lobby/Lobby_Main_10.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #3",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #9",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #1",
+            "FilePath": "Images/TA1/TargetArea1_1_2048x1024_q90.jpg",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #17",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #2",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #7",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #10",
+            "FilePath": "Images/TA1/TargetArea1_10.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #12",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #9",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #24",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #12",
+            "FilePath": "Images/TA1/TargetArea1_12.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #23",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #10",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #13",
+            "FilePath": "Images/TA1/TargetArea1_13.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #25",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #14",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #23",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #5",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #14",
+            "FilePath": "Images/TA1/TargetArea1_14.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #19",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #13",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #15",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #15",
+            "FilePath": "Images/TA1/TargetArea1_15.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #16",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #3",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #14",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #24",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #16",
+            "FilePath": "Images/TA1/TargetArea1_16.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #15",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #19",
+            "FilePath": "Images/TA1/TargetArea1_19.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #14",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #2",
+            "FilePath": "Images/TA1/TargetArea1_2.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #1",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #3",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #21",
+            "FilePath": "Images/TA1/TargetArea1_21.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #5",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #23",
+            "FilePath": "Images/TA1/TargetArea1_23.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #24",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #13",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #12",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #24",
+            "FilePath": "Images/TA1/TargetArea1_24.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #23",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #15",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #10",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #25",
+            "FilePath": "Images/TA1/TargetArea1_25.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #13",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #3",
+            "FilePath": "Images/TA1/TargetArea1_3.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #15",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #4",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #2",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #4",
+            "FilePath": "Images/TA1/TargetArea1_4.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #3",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #5",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #5",
+            "FilePath": "Images/TA1/TargetArea1_5.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #4",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #13",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #21",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #7",
+            "FilePath": "Images/TA1/TargetArea1_7.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #1",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #8",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #8",
+            "FilePath": "Images/TA1/TargetArea1_8.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #9",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #7",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Target Area 1 #9",
+            "FilePath": "Images/TA1/TargetArea1_9.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #10",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #8",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #1",
+            "FilePath": "Images/Hallway/Hallway_1.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #7",
+                    "Position": [
+                        23.5,
+                        -7.099999904632568,
+                        -0.4000000059604645
+                    ],
+                    "Angle": [
+                        0.0,
+                        354.1863098144531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Lobby Main #8",
+                    "Position": [
+                        7.400000095367432,
+                        -7.099999904632568,
+                        -2.200000047683716
+                    ],
+                    "Angle": [
+                        0.0,
+                        354.1863098144531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #6",
+                    "Position": [
+                        -67.66620635986328,
+                        -7.099999904632568,
+                        16.03076934814453
+                    ],
+                    "Angle": [
+                        0.0,
+                        354.1863098144531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #5",
+                    "Position": [
+                        -45.139408111572269,
+                        -7.099999904632568,
+                        10.986652374267579
+                    ],
+                    "Angle": [
+                        0.0,
+                        354.1863098144531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #4",
+                    "Position": [
+                        -28.764074325561525,
+                        -7.099999904632568,
+                        7.125518798828125
+                    ],
+                    "Angle": [
+                        0.0,
+                        354.1863098144531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #3",
+                    "Position": [
+                        -17.83367347717285,
+                        -7.099999904632568,
+                        4.418784141540527
+                    ],
+                    "Angle": [
+                        0.0,
+                        354.1863098144531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #2",
+                    "Position": [
+                        -8.038137435913086,
+                        -7.099999904632568,
+                        1.9985666275024415
+                    ],
+                    "Angle": [
+                        0.0,
+                        354.1863098144531,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #2",
+            "FilePath": "Images/Hallway/Hallway_2.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Experimental Control Room #2",
+                    "Position": [
+                        -4.0,
+                        -7.099999904632568,
+                        15.600000381469727
+                    ],
+                    "Angle": [
+                        0.0,
+                        351.77520751953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #7",
+                    "Position": [
+                        -67.93637084960938,
+                        -7.099999904632568,
+                        13.20527458190918
+                    ],
+                    "Angle": [
+                        0.0,
+                        351.77520751953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #6",
+                    "Position": [
+                        -45.217323303222659,
+                        -7.099999904632568,
+                        9.113319396972657
+                    ],
+                    "Angle": [
+                        0.0,
+                        351.77520751953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #5",
+                    "Position": [
+                        -28.694046020507814,
+                        -7.099999904632568,
+                        5.944504261016846
+                    ],
+                    "Angle": [
+                        0.0,
+                        351.77520751953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #4",
+                    "Position": [
+                        -17.659454345703126,
+                        -7.099999904632568,
+                        3.700000047683716
+                    ],
+                    "Angle": [
+                        0.0,
+                        351.77520751953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #3",
+                    "Position": [
+                        -7.7707672119140629,
+                        -7.099999904632568,
+                        1.6940193176269532
+                    ],
+                    "Angle": [
+                        0.0,
+                        351.77520751953127,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #3",
+            "FilePath": "Images/Hallway/Hallway_3.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #1",
+                    "Position": [
+                        26.615726470947267,
+                        -7.099999904632568,
+                        -3.9100000858306886
+                    ],
+                    "Angle": [
+                        0.0,
+                        348.98583984375,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #2",
+                    "Position": [
+                        14.779999732971192,
+                        -7.099999904632568,
+                        -2.190000057220459
+                    ],
+                    "Angle": [
+                        0.0,
+                        348.98583984375,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Experimental Control Room #2",
+                    "Position": [
+                        19.549999237060548,
+                        -7.099999904632568,
+                        8.550000190734864
+                    ],
+                    "Angle": [
+                        0.0,
+                        351.77520751953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #7",
+                    "Position": [
+                        -60.29999923706055,
+                        -7.099999904632568,
+                        8.600000381469727
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.18560791015627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #6",
+                    "Position": [
+                        -37.41926956176758,
+                        -7.099999904632568,
+                        5.538708686828613
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.18560791015627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #5",
+                    "Position": [
+                        -20.76969337463379,
+                        -7.099999904632568,
+                        3.119678497314453
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.18560791015627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #4",
+                    "Position": [
+                        -9.644962310791016,
+                        -7.099999904632568,
+                        1.3760271072387696
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.18560791015627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #8",
+                    "Position": [
+                        -85.69999694824219,
+                        -7.099999904632568,
+                        12.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.18560791015627,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #4",
+            "FilePath": "Images/Hallway/Hallway_4.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #3",
+                    "Position": [
+                        9.564271926879883,
+                        -7.099999904632568,
+                        -1.090000033378601
+                    ],
+                    "Angle": [
+                        0.0,
+                        348.98583984375,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #1",
+                    "Position": [
+                        32.29999923706055,
+                        -7.099999904632568,
+                        -4.400000095367432
+                    ],
+                    "Angle": [
+                        0.0,
+                        348.98583984375,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #2",
+                    "Position": [
+                        20.464271545410158,
+                        -7.099999904632568,
+                        -2.680000066757202
+                    ],
+                    "Angle": [
+                        0.0,
+                        348.98583984375,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #8",
+                    "Position": [
+                        -60.29999923706055,
+                        -7.099999904632568,
+                        8.600000381469727
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.18560791015627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #7",
+                    "Position": [
+                        -37.41926956176758,
+                        -7.099999904632568,
+                        5.538708686828613
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.18560791015627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #6",
+                    "Position": [
+                        -20.76969337463379,
+                        -7.099999904632568,
+                        3.119678497314453
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.18560791015627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #5",
+                    "Position": [
+                        -9.644962310791016,
+                        -7.099999904632568,
+                        1.3760271072387696
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.18560791015627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #8",
+                    "Position": [
+                        -85.69999694824219,
+                        -7.099999904632568,
+                        12.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.18560791015627,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #5",
+            "FilePath": "Images/Hallway/Hallway_5.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #1",
+                    "Position": [
+                        50.900001525878909,
+                        -7.099999904632568,
+                        -4.699999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        345.622802734375,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #10",
+                    "Position": [
+                        -86.0942153930664,
+                        -7.099999904632568,
+                        7.199999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        345.82257080078127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #6",
+                    "Position": [
+                        -9.517581939697266,
+                        -7.099999904632568,
+                        0.5567026138305664
+                    ],
+                    "Angle": [
+                        0.0,
+                        345.82257080078127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #7",
+                    "Position": [
+                        -20.725439071655275,
+                        -7.099999904632568,
+                        1.6447558403015137
+                    ],
+                    "Angle": [
+                        0.0,
+                        345.82257080078127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #8",
+                    "Position": [
+                        -37.48824691772461,
+                        -7.099999904632568,
+                        3.08292818069458
+                    ],
+                    "Angle": [
+                        0.0,
+                        345.82257080078127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #9",
+                    "Position": [
+                        -60.509178161621097,
+                        -7.099999904632568,
+                        4.79672384262085
+                    ],
+                    "Angle": [
+                        0.0,
+                        345.82257080078127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #3",
+                    "Position": [
+                        20.777734756469728,
+                        -7.099999904632568,
+                        -1.7260799407958985
+                    ],
+                    "Angle": [
+                        0.0,
+                        345.622802734375,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #2",
+                    "Position": [
+                        32.6939697265625,
+                        -7.099999904632568,
+                        -2.748814582824707
+                    ],
+                    "Angle": [
+                        0.0,
+                        345.622802734375,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #4",
+                    "Position": [
+                        9.803232192993164,
+                        -7.099999904632568,
+                        -0.778231143951416
+                    ],
+                    "Angle": [
+                        0.0,
+                        345.622802734375,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #6",
+            "FilePath": "Images/Hallway/Hallway_6.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #5",
+                    "Position": [
+                        7.954072952270508,
+                        -7.099999904632568,
+                        -2.299999952316284
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #11",
+                    "Position": [
+                        -61.113311767578128,
+                        -7.099999904632568,
+                        9.533831596374512
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #10",
+                    "Position": [
+                        -45.37681579589844,
+                        -7.099999904632568,
+                        7.191798210144043
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #9",
+                    "Position": [
+                        -32.079708099365237,
+                        -7.099999904632568,
+                        4.98725700378418
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #8",
+                    "Position": [
+                        -19.805742263793947,
+                        -7.099999904632568,
+                        3.198483467102051
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #7",
+                    "Position": [
+                        -10.32376480102539,
+                        -7.099999904632568,
+                        1.9526662826538087
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #7",
+            "FilePath": "Images/Hallway/Hallway_7.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #6",
+                    "Position": [
+                        7.954072952270508,
+                        -7.099999904632568,
+                        -2.299999952316284
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #12",
+                    "Position": [
+                        -61.23237609863281,
+                        -7.099999904632568,
+                        7.699999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        348.13824462890627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #11",
+                    "Position": [
+                        -45.42216873168945,
+                        -7.099999904632568,
+                        5.922544479370117
+                    ],
+                    "Angle": [
+                        0.0,
+                        348.13824462890627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #10",
+                    "Position": [
+                        -32.05469512939453,
+                        -7.099999904632568,
+                        4.195207118988037
+                    ],
+                    "Angle": [
+                        0.0,
+                        348.13824462890627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #9",
+                    "Position": [
+                        -19.724584579467775,
+                        -7.099999904632568,
+                        2.846761703491211
+                    ],
+                    "Angle": [
+                        0.0,
+                        348.13824462890627,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #8",
+                    "Position": [
+                        -10.204099655151368,
+                        -7.099999904632568,
+                        1.941023349761963
+                    ],
+                    "Angle": [
+                        0.0,
+                        348.13824462890627,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #8",
+            "FilePath": "Images/Hallway/Hallway_8.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #7",
+                    "Position": [
+                        7.954072952270508,
+                        -7.099999904632568,
+                        -2.299999952316284
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #13",
+                    "Position": [
+                        -61.298614501953128,
+                        -7.099999904632568,
+                        6.599999904632568
+                    ],
+                    "Angle": [
+                        0.0,
+                        346.6431579589844,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #12",
+                    "Position": [
+                        -45.447410583496097,
+                        -7.099999904632568,
+                        5.235660552978516
+                    ],
+                    "Angle": [
+                        0.0,
+                        346.6431579589844,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #11",
+                    "Position": [
+                        -32.0394172668457,
+                        -7.099999904632568,
+                        3.857687473297119
+                    ],
+                    "Angle": [
+                        0.0,
+                        346.6431579589844,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #10",
+                    "Position": [
+                        -19.67832374572754,
+                        -7.099999904632568,
+                        2.831411838531494
+                    ],
+                    "Angle": [
+                        0.0,
+                        346.6431579589844,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #9",
+                    "Position": [
+                        -10.137441635131836,
+                        -7.099999904632568,
+                        2.1743850708007814
+                    ],
+                    "Angle": [
+                        0.0,
+                        346.6431579589844,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #9",
+            "FilePath": "Images/Hallway/Hallway_9.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #8",
+                    "Position": [
+                        7.954072952270508,
+                        -7.099999904632568,
+                        -2.299999952316284
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #14",
+                    "Position": [
+                        -61.179527282714847,
+                        -7.099999904632568,
+                        8.160356521606446
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.11505126953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #13",
+                    "Position": [
+                        -45.40190124511719,
+                        -7.099999904632568,
+                        6.113630294799805
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.11505126953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #12",
+                    "Position": [
+                        -32.065826416015628,
+                        -7.099999904632568,
+                        4.158659934997559
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.11505126953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #11",
+                    "Position": [
+                        -19.760498046875,
+                        -7.099999904632568,
+                        2.6002109050750734
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.11505126953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #10",
+                    "Position": [
+                        -10.2568359375,
+                        -7.099999904632568,
+                        1.5323011875152588
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.11505126953127,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #10",
+            "FilePath": "Images/Hallway/Hallway_10.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #9",
+                    "Position": [
+                        7.954072952270508,
+                        -7.099999904632568,
+                        -2.299999952316284
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #15",
+                    "Position": [
+                        -61.179527282714847,
+                        -7.099999904632568,
+                        8.160356521606446
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.11505126953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #14",
+                    "Position": [
+                        -45.40190124511719,
+                        -7.099999904632568,
+                        6.113630294799805
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.11505126953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #13",
+                    "Position": [
+                        -32.065826416015628,
+                        -7.099999904632568,
+                        4.158659934997559
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.11505126953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #12",
+                    "Position": [
+                        -19.760498046875,
+                        -7.099999904632568,
+                        2.6002109050750734
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.11505126953127,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #11",
+                    "Position": [
+                        -10.2568359375,
+                        -7.099999904632568,
+                        1.5323011875152588
+                    ],
+                    "Angle": [
+                        0.0,
+                        349.11505126953127,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #11",
+            "FilePath": "Images/Hallway/Hallway_11.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #12",
+                    "Position": [
+                        -11.300000190734864,
+                        -7.099999904632568,
+                        1.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #15",
+                    "Position": [
+                        -48.0,
+                        -7.099999904632568,
+                        4.800000190734863
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #13",
+                    "Position": [
+                        -22.200000762939454,
+                        -7.099999904632568,
+                        2.5999999046325685
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #14",
+                    "Position": [
+                        -35.0,
+                        -7.099999904632568,
+                        3.700000047683716
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #16",
+                    "Position": [
+                        -61.262245178222659,
+                        -7.099999904632568,
+                        6.599999904632568
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #10",
+                    "Position": [
+                        7.954072952270508,
+                        -7.099999904632568,
+                        -2.299999952316284
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #12",
+            "FilePath": "Images/Hallway/Hallway_12.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #14",
+                    "Position": [
+                        -21.399999618530275,
+                        -7.099999904632568,
+                        2.200000047683716
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #15",
+                    "Position": [
+                        -33.29999923706055,
+                        -7.099999904632568,
+                        3.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #12",
+                    "Position": [
+                        7.954072952270508,
+                        -7.099999904632568,
+                        -2.299999952316284
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #13",
+                    "Position": [
+                        -11.300000190734864,
+                        -7.099999904632568,
+                        1.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #16",
+                    "Position": [
+                        -48.0,
+                        -7.099999904632568,
+                        4.800000190734863
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #13",
+            "FilePath": "Images/Hallway/Hallway_13.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #16",
+                    "Position": [
+                        -37.70000076293945,
+                        -7.099999904632568,
+                        3.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #12",
+                    "Position": [
+                        7.954072952270508,
+                        -7.099999904632568,
+                        -2.299999952316284
+                    ],
+                    "Angle": [
+                        0.0,
+                        350.1888122558594,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #14",
+                    "Position": [
+                        -11.300000190734864,
+                        -7.099999904632568,
+                        1.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #15",
+                    "Position": [
+                        -23.299999237060548,
+                        -7.099999904632568,
+                        2.299999952316284
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #14",
+            "FilePath": "Images/Hallway/Hallway_14.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #13",
+                    "Position": [
+                        7.900000095367432,
+                        -7.099999904632568,
+                        -0.6000000238418579
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #15",
+                    "Position": [
+                        -11.300000190734864,
+                        -7.099999904632568,
+                        1.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #16",
+                    "Position": [
+                        -23.299999237060548,
+                        -7.099999904632568,
+                        2.299999952316284
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #15",
+            "FilePath": "Images/Hallway/Hallway_15.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #18",
+                    "Position": [
+                        -8.600000381469727,
+                        -7.099999904632568,
+                        26.200000762939454
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #17",
+                    "Position": [
+                        -10.100000381469727,
+                        -7.099999904632568,
+                        13.899999618530274
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #16",
+                    "Position": [
+                        -11.300000190734864,
+                        -7.099999904632568,
+                        1.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #14",
+                    "Position": [
+                        7.900000095367432,
+                        -7.099999904632568,
+                        -0.6000000238418579
+                    ],
+                    "Angle": [
+                        0.0,
+                        347.5105285644531,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #16",
+            "FilePath": "Images/Hallway/Hallway_16.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Target Area 1 #1",
+                    "Position": [
+                        6.400000095367432,
+                        -5.800000190734863,
+                        18.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #19",
+                    "Position": [
+                        2.200000047683716,
+                        -5.800000190734863,
+                        32.29999923706055
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #20",
+                    "Position": [
+                        3.2699999809265138,
+                        -5.800000190734863,
+                        42.54999923706055
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #18",
+                    "Position": [
+                        1.399999976158142,
+                        -5.800000190734863,
+                        22.299999237060548
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #17",
+                    "Position": [
+                        0.800000011920929,
+                        -5.800000190734863,
+                        11.899999618530274
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #15",
+                    "Position": [
+                        9.399999618530274,
+                        -5.800000190734863,
+                        -0.20000000298023225
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #17",
+            "FilePath": "Images/Hallway/Hallway_17.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#6",
+                    "Location": [
+                        32.29999923706055,
+                        -42.0,
+                        -30.200000762939454
+                    ]
+                },
+                {
+                    "InterestPointId": "InterestPoint#17",
+                    "Location": [
+                        -28.0,
+                        -37.599998474121097,
+                        19.899999618530275
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #23",
+                    "Position": [
+                        5.5,
+                        -5.800000190734863,
+                        48.70000076293945
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #16",
+                    "Position": [
+                        -1.600000023841858,
+                        -5.800000190734863,
+                        -10.5
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #1",
+                    "Position": [
+                        11.300000190734864,
+                        -5.800000190734863,
+                        4.199999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #19",
+                    "Position": [
+                        1.5,
+                        -5.800000190734863,
+                        23.899999618530275
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #20",
+                    "Position": [
+                        2.5,
+                        -5.800000190734863,
+                        34.70000076293945
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #18",
+                    "Position": [
+                        0.6000000238418579,
+                        -5.800000190734863,
+                        13.699999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #18",
+            "FilePath": "Images/Hallway/Hallway_18.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #16",
+                    "Position": [
+                        -3.0999999046325685,
+                        -5.800000190734863,
+                        -22.600000381469728
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #17",
+                    "Position": [
+                        -1.7999999523162842,
+                        -5.800000190734863,
+                        -10.199999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #21",
+                    "Position": [
+                        -6.400000095367432,
+                        -9.5,
+                        52.29999923706055
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #23",
+                    "Position": [
+                        2.200000047683716,
+                        -5.800000190734863,
+                        32.29999923706055
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #24",
+                    "Position": [
+                        3.2699999809265138,
+                        -5.800000190734863,
+                        42.54999923706055
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #20",
+                    "Position": [
+                        1.399999976158142,
+                        -5.800000190734863,
+                        22.899999618530275
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #19",
+                    "Position": [
+                        -0.10000000149011612,
+                        -5.800000190734863,
+                        15.300000190734864
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Target Area 1 #1",
+                    "Position": [
+                        8.899999618530274,
+                        -5.800000190734863,
+                        -10.199999809265137
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #19",
+            "FilePath": "Images/Hallway/Hallway_19.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #20",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #18",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #20",
+            "FilePath": "Images/Hallway/Hallway_20.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #23",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #19",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #21",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #21",
+            "FilePath": "Images/Hallway/Hallway_21.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #18",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #22",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #22",
+            "FilePath": "Images/Hallway/Hallway_22.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #21",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #3",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #23",
+            "FilePath": "Images/Hallway/Hallway_23.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #20",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #24",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #24",
+            "FilePath": "Images/Hallway/Hallway_24.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #23",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #25",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #25",
+            "FilePath": "Images/Hallway/Hallway_25.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Hallway #24",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #26",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Hallway #26",
+            "FilePath": "Images/Hallway/Hallway_26.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Laser Control Room #1",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Hallway #25",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #3",
+            "FilePath": "Images/Offices/Offices_3.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #4",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #1",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #4",
+            "FilePath": "Images/Offices/Offices_4.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #5",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #3",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #5",
+            "FilePath": "Images/Offices/Offices_5.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #6",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #4",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #6",
+            "FilePath": "Images/Offices/Offices_6.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #7",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #5",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #7",
+            "FilePath": "Images/Offices/Offices_7.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #8",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #6",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #8",
+            "FilePath": "Images/Offices/Offices_8.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #9",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #7",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #9",
+            "FilePath": "Images/Offices/Offices_9.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #10",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #8",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #10",
+            "FilePath": "Images/Offices/Offices_10.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #11",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #9",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #11",
+            "FilePath": "Images/Offices/Offices_11.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #12",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #10",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #12",
+            "FilePath": "Images/Offices/Offices_12.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #13",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #11",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #13",
+            "FilePath": "Images/Offices/Offices_13.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #14",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #12",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #14",
+            "FilePath": "Images/Offices/Offices_14.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #15",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #13",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #15",
+            "FilePath": "Images/Offices/Offices_15.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #16",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #14",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #16",
+            "FilePath": "Images/Offices/Offices_16.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #17",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #15",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #17",
+            "FilePath": "Images/Offices/Offices_17.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #18",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #16",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #18",
+            "FilePath": "Images/Offices/Offices_18.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #19",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #17",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #19",
+            "FilePath": "Images/Offices/Offices_19.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #20",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #18",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #20",
+            "FilePath": "Images/Offices/Offices_20.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #21",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #19",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #21",
+            "FilePath": "Images/Offices/Offices_21.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #22",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #20",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #22",
+            "FilePath": "Images/Offices/Offices_22.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Offices #23",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Gerstacker Lobby #7",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #21",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Offices #23",
+            "FilePath": "Images/Offices/Offices_23.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Lobby Main #9",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Offices #22",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Experimental Control Room #1",
+            "FilePath": "Images/ECR/ECR_1.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Experimental Control Room #2",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Experimental Control Room #2",
+            "FilePath": "Images/ECR/ECR_2.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Experimental Control Room #3",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Experimental Control Room #1",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Experimental Control Room #3",
+            "FilePath": "Images/ECR/ECR_3.JPG",
+            "Location": [],
+            "Contents": [],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Experimental Control Room #2",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "AdjacentID": "Experimental Control Room #4",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Experimental Control Room #4",
+            "FilePath": "Images/ECR/ECR_4.JPG",
+            "Location": [],
+            "Contents": [
+                {
+                    "InterestPointId": "InterestPoint#8",
+                    "Location": [
+                        -27.100000381469728,
+                        -37.599998474121097,
+                        76.19999694824219
+                    ]
+                },
+                {
+                    "InterestPointId": "InterestPoint#7",
+                    "Location": [
+                        -45.0,
+                        -37.599998474121097,
+                        14.800000190734864
+                    ]
+                }
+            ],
+            "Adjacent": [
+                {
+                    "AdjacentID": "Experimental Control Room #3",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        }
+    ]
+}

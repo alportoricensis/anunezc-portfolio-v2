@@ -8,6 +8,34 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
+    <style>
+      html, body {
+        margin: 0; height: 100%;
+        overscroll-behavior: none;          /* stops pull-to-refresh/overscroll */
+        touch-action: none;                  /* disable default gestures */
+      }
+      #unity-canvas {
+        touch-action: none;                  /* critical: let pointer events hit Unity */
+        -ms-touch-action: none;              /* old Edge */
+        user-select: none; -webkit-user-select: none;
+      }
+    </style>
+
+    <script>
+      // Keep the page from hijacking touches over the canvas.
+      window.addEventListener('touchstart',  e => {
+        if (e.target.closest('#unity-canvas')) e.preventDefault();
+      }, { passive: false });
+
+      window.addEventListener('touchmove',   e => {
+        if (e.target.closest('#unity-canvas')) e.preventDefault();
+      }, { passive: false });
+
+      // Optional: stop pinch-to-zoom on the page (Ctrl+wheel zoom too)
+      window.addEventListener('wheel', e => {
+        if (e.ctrlKey) e.preventDefault();
+      }, { passive: false });
+    </script>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
